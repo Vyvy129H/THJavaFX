@@ -45,5 +45,10 @@ public class Course {
             }
         }
     }
+    public void info(){
+        System.out.println("Ten khoa hoc: " + courseName);
+        System.out.println("Ma khoa hoc: " + CourseID);
+        System.out.println("So hoc sinh: " + students.length);
+    }
 
 }
