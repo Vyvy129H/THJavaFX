@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.demo3.Login.HomeController">
+    <top>
+        <HBox spacing="10" padding="10">
+            <Button text="Home"/>
+            <Button text="Products"/>
+            <Button text="Cart"/>
+            <Button text="Profile"/>
+        </HBox>
+    </top>
+    <center>
+        <ListView fx:id="productListView"/>
+    </center>
+</BorderPane>
