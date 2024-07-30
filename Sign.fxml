@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.demo3.Sign"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox alignment="CENTER">
+        <Label>Tên đăng nhập</Label>
+        <TextField fx:id="Username"/>
+        <Label>Nhập mật khẩu </Label>
+        <PasswordField fx:id="Password"/>
+        <Button text="Đăng ký" fx:id="signButton" />
+        <Button text="Go back" fx:id="backButton"/>
+    </VBox>
+</HBox>
